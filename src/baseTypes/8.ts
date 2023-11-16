@@ -4,7 +4,7 @@
 */
 
 
-type union = "male" | "female";
-const myGender: union = "male";
+type Gender = "male" | "female";
+const myGender: Gender = "male";
 
 export {myGender};
