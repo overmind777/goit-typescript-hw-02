@@ -3,6 +3,8 @@
   який може містити значення "male", "female". Створіть змінну myGender цього типу.
 */
 
-const myGender;
 
-export {};
+type union = "male" | "female";
+const myGender: union = "male";
+
+export {myGender};
