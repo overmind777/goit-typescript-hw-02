@@ -4,7 +4,7 @@
 interface newType  {
   title: string;
   likes: number;
-  accounts: [name: string];
+  accounts: string[];
   status: string;
   details?: {
     createAt: Date;
@@ -12,7 +12,7 @@ interface newType  {
   }
 }
 
-const page1 = {
+const page1: newType = {
   title: 'The awesome page',
   likes: 100,
   accounts: ['Max', 'Anton', 'Nikita'],
@@ -23,7 +23,7 @@ const page1 = {
   }
 }
 
-const page2 = {
+const page2: newType = {
   title: 'Python or Js',
   likes: 5,
   accounts: ['Alex'],
